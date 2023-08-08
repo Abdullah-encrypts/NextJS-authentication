@@ -12,7 +12,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <Link href='/'>
+      <Link href='/' legacyBehavior>
         <a>
           <div className={classes.logo}>Next Auth</div>
         </a>
